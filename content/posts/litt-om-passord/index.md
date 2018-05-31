@@ -5,7 +5,7 @@ date: 2018-05-31
 
 Passord er noe hærk!
 
-Ønsker du kun løsning? Klikk deg videre til [1Password](https://1password.com/) og følg deres instruksjoner. Gjøre du det vil du automatisk få gode passordrutiner.
+Ønsker du kun løsning? Klikk deg videre til [1Password](https://1password.com/) og følg deres instruksjoner. Gjør du det vil du automatisk få gode passordrutiner.
 
 # Gode passord rutiner
 
