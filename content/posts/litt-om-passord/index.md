@@ -9,13 +9,13 @@ Passord er noe hærk!
 
 # Gode passord rutiner
 
-1.  Gode passord.
+1.  Sterke passord.
 2.  Ikke bruk samme passord flere steder.
 3.  Er det ekstra viktig, skru på to-faktor autentisering.
 
 Punktene over resulterer i at du burde bruke et passord-håndteringsprogram som [1Password](https://1password.com/) eller en notatbok alla [My password journal](http://amzn.to/2DZSDEX).
 
-## 1. Gode passord
+## 1. Sterke passord
 
 Lange relativt enkle passord "brimful-praise-buckaroo-dave", er bedre enn korte komplekse passord "L3t!tg0" ("Let it go" med erstatninger for e, i og o).
 
