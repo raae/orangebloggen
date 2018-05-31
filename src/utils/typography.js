@@ -7,12 +7,15 @@ elkGlenTheme.overrideThemeStyles = () => ({
     textShadow: "none",
     backgroundImage: "none",
     textDecoration: "underline",
-    transition: "all 250ms ease-in-out"
+    transition: "color 250ms ease-in-out"
   },
   "a:hover": {
     color: "orangered !important"
   },
-  "a.gatsby-resp-image-link:hover": {
+  img: {
+    transition: "filter 250ms ease-in-out"
+  },
+  "a:hover img": {
     filter: "brightness(1.2)"
   }
 });
