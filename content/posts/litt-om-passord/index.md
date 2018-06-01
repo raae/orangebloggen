@@ -29,7 +29,11 @@ Ikke bruk samme passord flere steder.
 
 Når en av tjeneste du bruker blir "eid", og innloggingsdetaljene dine ligger til salgs på the dark web, er det fint å vite at kjøperen ikke kan komme seg videre inn i andre tjenester du bruker.
 
-Innloggingsdetaljer lekkes oftere enn man skulle tro. Sjekk om din bruker har vært del i en, eller flere, av de store internasjonale skandalene på [Have I've been pawned](https://haveibeenpwned.com/).
+Innloggingsdetaljer lekkes oftere enn man skulle tro. Ved jevne mellomrom dukker det opp "jeg er blitt hacket" oppdateringer på Facebook. Lekking av innloggingsdetaljer fra en annen tjeneste er nok ofte grunnen.
+
+![Beskjent som er blitt hacket](facebook.png)
+
+Sjekk om din bruker har vært del i en, eller flere, av de store internasjonale skandalene på [Have I've been pawned](https://haveibeenpwned.com/).
 
 ![Have I been pawned](password-pawned.png)
 
