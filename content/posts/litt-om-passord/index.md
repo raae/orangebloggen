@@ -19,9 +19,9 @@ Punktene over resulterer i at du burde bruke et passord-håndteringsprogram som 
 
 Lange relativt enkle passord "brimful-praise-buckaroo-dave", er bedre enn korte komplekse passord "L3t!tg0" ("Let it go" med erstatninger for e, i og o).
 
-"Men vent nå litt. På jobben er det maks 12 tegn og det må være minst 1 tall og et spesialtegn" tenker du kansje. Dem om det! Ekspertene er uenig og tegneseriestripen fra xkcd forklarer hvorfor.
+"Men vent nå litt. På jobben er det maks 12 tegn og det må være minst 1 tall og et spesialtegn" tenker du kansje. Dem om det! Ekspertene er uenig og [tegneseriestripen fra xkcd](https://xkcd.com/936/) forklarer hvorfor.
 
-[![xkcd comic strip](https://imgs.xkcd.com/comics/password_strength.png "Password Strength")](https://xkcd.com/936/)
+![xkcd comic strip](https://imgs.xkcd.com/comics/password_strength.png)
 
 ## 2. Unike passord
 
@@ -31,11 +31,11 @@ Når en av tjeneste du bruker blir "eid", og innloggingsdetaljene dine ligger ti
 
 Innloggingsdetaljer lekkes oftere enn man skulle tro. Ved jevne mellomrom dukker det opp "jeg er blitt hacket" oppdateringer på Facebook. Lekking av innloggingsdetaljer fra en annen tjeneste er nok ofte grunnen.
 
-![Beskjent som er blitt hacket](facebook.png)
+![Skjerdump fra Facebook](facebook.png "Siste av en rekke slike meldinger.")
 
 Sjekk om din bruker har vært del i en, eller flere, av de store internasjonale skandalene på [Have I've been pawned](https://haveibeenpwned.com/).
 
-![Have I been pawned](password-pawned.png)
+![Have I been pawned](password-pawned.png 'Som dere kan se har jeg blitt "pawned" en del ganger.')
 
 Det kan også være en gode idé å si ja takk til "Notify me when I get pawned". Tjenesten leveres av den anerkjente sikkerhetseksperten Troy Hunt.
 
