@@ -1,5 +1,5 @@
 ---
-title: Litt om passord
+title: Litt om passord og hvorfor et passord-håndteringsprogram er løsningen.
 date: 2018-05-31
 ---
 
@@ -9,8 +9,8 @@ Passord er noe hærk!
 
 # Gode passord rutiner
 
-1.  Sterke passord.
-2.  Ikke bruk samme passord flere steder.
+1.  Velg sterke passord.
+2.  Bruk unike passord.
 3.  Er det ekstra viktig, skru på to-faktor autentisering.
 
 Punktene over resulterer i at du burde bruke et passord-håndteringsprogram som [1Password](https://1password.com/) eller en notatbok alla [My password journal](http://amzn.to/2DZSDEX).
