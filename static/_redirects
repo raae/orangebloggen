@@ -1,3 +1,6 @@
 
 /2016/12/05/hei-lo-mammaen-min-kan-mer-om-it-enn-dere/   /hei-lo-mammaen-min-kan-mer-om-it-enn-dere
 /2015/12/05/glasur/ /glasur
+
+# Redirect default Netlify subdomain to primary domain
+https://orangebloggen.netlify.com/* https://orangebloggen.no/:splat 301!
