@@ -5,6 +5,16 @@ module.exports = {
     description:
       "En blogg om livet (mitt) og teknologi (jeg bruker), pluss en rant i ny og ne.",
     siteUrl: "https://orangebloggen.no",
+    feedbackFormLabels: {
+      title: "Hei, se her!",
+      message:
+        "På denne siden er det ingen storebror (ingen cookies, ingen analyseverktøy, nadanix) som ser deg. Derfor er det fint om du melder fra i skjema under om du syntes artikkelen var nyttig (eller ei).",
+      name: "Navn",
+      email: "E-post",
+      textarea: "Beskjed",
+      newsletter: "Jeg ønsker å få nyhetsbrev når det kommer nytt innhold",
+      submit: "Send"
+    },
     some: [
       {
         label: "Twitter",
@@ -54,12 +64,6 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
-      }
-    },
     `gatsby-plugin-feed`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,

@@ -22,6 +22,32 @@ elkGlenTheme.overrideThemeStyles = () => ({
   },
   "a:hover img": {
     filter: "brightness(1.2)"
+  },
+  "input[type='text']": {
+    width: "100%",
+    border: "4px solid darkorange",
+    padding: "0.5em",
+    marginTop: "0.25em"
+  },
+  "input[type='checkbox']": {
+    display: "inline-block",
+    margin: "0.3em 0.5em",
+    verticalAlign: "top"
+  },
+  textarea: {
+    width: "100%",
+    border: "4px solid darkorange",
+    padding: "0.5em",
+    marginTop: "0.25em"
+  },
+  button: {
+    border: "4px solid orangered",
+    padding: "0.5em 1em"
+  },
+  "button:hover": {
+    backgroundColor: "orangered",
+    color: "white",
+    transition: "all 250ms ease-in-out"
   }
 });
 

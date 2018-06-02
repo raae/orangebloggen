@@ -5,10 +5,17 @@ import get from "lodash/get";
 
 import { rhythm, scale } from "../utils/typography";
 
+import FeedbackForm from "../components/FeedbackForm";
+import SpacerLine from "../components/SpacerLine";
+
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark;
     const siteTitle = get(this.props, "data.site.siteMetadata.title");
+    const feedbackFormLabels = get(
+      this.props,
+      "data.site.siteMetadata.feedbackFormLabels"
+    );
     const { previous, next } = this.props.pathContext;
 
     return (
@@ -29,19 +36,10 @@ class BlogPostTemplate extends React.Component {
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
         </article>
 
-        {(previous || next) && (
-          <hr
-            style={{
-              backgroundColor: "orangered",
-              width: rhythm(3),
-              height: "4px",
-              margin: `${rhythm(1)} auto`
-            }}
-          />
-        )}
+        {(previous || next) && <SpacerLine />}
 
-        <footer>
-          <ul
+        {(previous || next) && (
+          <menu
             style={{
               display: "flex",
               margin: 0,
@@ -66,8 +64,12 @@ class BlogPostTemplate extends React.Component {
                 </Link>
               </li>
             )}
-          </ul>
-        </footer>
+          </menu>
+        )}
+
+        <SpacerLine />
+
+        <FeedbackForm slug={post.fields.slug} labels={feedbackFormLabels} />
       </div>
     );
   }
@@ -81,11 +83,23 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         author
+        feedbackFormLabels {
+          title
+          message
+          name
+          email
+          textarea
+          newsletter
+          submit
+        }
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       html
+      fields {
+        slug
+      }
       frontmatter {
         title
       }
