@@ -6,6 +6,7 @@ export default ({ slug, labels }) => {
   return (
     <form
       name={`post-${slug}`}
+      action="/takk"
       method="post"
       data-netlify="true"
       style={{

@@ -7,13 +7,28 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
   const { createPage } = boundActionCreators;
 
   return new Promise((resolve, reject) => {
-    const blogPost = path.resolve("./src/templates/post.js");
     resolve(
       graphql(
         `
           {
-            allMarkdownRemark(
+            posts: allMarkdownRemark(
               sort: { fields: [frontmatter___date], order: DESC }
+              filter: { fields: { postType: { eq: "posts" } } }
+              limit: 1000
+            ) {
+              edges {
+                node {
+                  fields {
+                    slug
+                  }
+                  frontmatter {
+                    title
+                  }
+                }
+              }
+            }
+            pages: allMarkdownRemark(
+              filter: { fields: { postType: { eq: "pages" } } }
               limit: 1000
             ) {
               edges {
@@ -36,7 +51,10 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
         }
 
         // Create posts pages.
-        const posts = result.data.allMarkdownRemark.edges;
+        const posts = result.data.posts.edges;
+        const postTemplate = path.resolve("./src/templates/post.js");
+        const pages = result.data.pages.edges;
+        const pageTemplate = path.resolve("./src/templates/page.js");
 
         _.each(posts, (post, index) => {
           const previous =
@@ -45,11 +63,21 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
 
           createPage({
             path: post.node.fields.slug,
-            component: blogPost,
+            component: postTemplate,
             context: {
               slug: post.node.fields.slug,
               previous,
               next
+            }
+          });
+        });
+
+        _.each(pages, (post, index) => {
+          createPage({
+            path: post.node.fields.slug,
+            component: pageTemplate,
+            context: {
+              slug: post.node.fields.slug
             }
           });
         });
@@ -62,11 +90,18 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
   const { createNodeField } = boundActionCreators;
 
   if (node.internal.type === `MarkdownRemark`) {
-    const value = createFilePath({ node, getNode });
+    const parent = getNode(node.parent);
+
+    createNodeField({
+      name: `postType`,
+      node,
+      value: parent.sourceInstanceName
+    });
+
     createNodeField({
       name: `slug`,
       node,
-      value
+      value: createFilePath({ node, getNode })
     });
   }
 };

@@ -15,6 +15,9 @@ elkGlenTheme.overrideThemeStyles = () => ({
   img: {
     transition: "filter 250ms ease-in-out"
   },
+  "img[src$='.gif']": {
+    width: "100%"
+  },
   figcaption: {
     textAlign: "center",
     fontSize: "80%",
