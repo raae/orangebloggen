@@ -1,13 +1,13 @@
 import React from "react";
 import Link from "gatsby-link";
-import meImg from "./../assets/me.jpg";
+import meImg from "./../assets/olaveapåFbogTwitterSmalere.png";
 
 import { rhythm } from "../utils/typography";
 
 export default ({ children }) => (
   <div
     style={{
-      borderTop: "4px solid orangered"
+      borderTop: "4px solid lightblue"
     }}
   >
     <div
@@ -26,7 +26,7 @@ export default ({ children }) => (
         style={{
           margin: 0,
           display: "block",
-          border: "4px solid darkorange"
+          border: "4px solid lightblue"
         }}
         src={meImg}
       />

@@ -1,10 +1,11 @@
+// and with no intended identification with actual persons (living or deceased). No animals harmed
 module.exports = {
   siteMetadata: {
-    title: "Orangebloggen",
-    author: "Benedicte Raae",
+    title: "Stories",
+    author: "Ola Vea",
     description:
-      "En blogg om livet (mitt) og teknologi (jeg bruker), pluss en rant i ny og ne.",
-    siteUrl: "https://orangebloggen.no",
+      "Stories from real life (mine) and made up stories told by me.",
+    siteUrl: "https://olavea.com/stories",
     feedbackFormLabels: {
       title: "Hei, se her!",
       message:
@@ -18,15 +19,15 @@ module.exports = {
     some: [
       {
         label: "Twitter",
-        url: "https://twitter.com/raae"
+        url: "https://twitter.com/olaholstvea"
       },
       {
         label: "Instagram",
-        url: "https://instagram.com/benedicteraae"
+        url: "https://instagram.com/batcatdad"
       },
       {
         label: "LinkedIn",
-        url: "https://www.linkedin.com/in/benedicteraae/"
+        url: "https://www.linkedin.com/in/olaholstvea/"
       }
     ]
   },

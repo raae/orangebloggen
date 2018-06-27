@@ -10,7 +10,7 @@ elkGlenTheme.overrideThemeStyles = () => ({
     transition: "color 250ms ease-in-out"
   },
   "a:hover": {
-    color: "orangered !important"
+    color: "darkblue !important"
   },
   img: {
     transition: "filter 250ms ease-in-out"
@@ -28,7 +28,7 @@ elkGlenTheme.overrideThemeStyles = () => ({
   },
   "input[type='text']": {
     width: "100%",
-    border: "4px solid darkorange",
+    border: "4px solid darkblue",
     padding: "0.5em",
     marginTop: "0.25em"
   },
@@ -39,16 +39,16 @@ elkGlenTheme.overrideThemeStyles = () => ({
   },
   textarea: {
     width: "100%",
-    border: "4px solid darkorange",
+    border: "4px solid darkblue",
     padding: "0.5em",
     marginTop: "0.25em"
   },
   button: {
-    border: "4px solid orangered",
+    border: "4px solid darkblue",
     padding: "0.5em 1em"
   },
   "button:hover": {
-    backgroundColor: "orangered",
+    backgroundColor: "darkblue",
     color: "white",
     transition: "all 250ms ease-in-out"
   }

@@ -1,5 +1,5 @@
 ---
-title: Litt om passord og hvorfor et passord-håndteringsprogram er løsningen.
+title: The Empire Strikes Bislett
 date: 2018-05-31
 ---
 
