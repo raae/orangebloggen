@@ -26,7 +26,9 @@ export default ({ children }) => (
         style={{
           margin: 0,
           display: "block",
-          border: "4px solid lightblue"
+          border: "4px solid lightblue",
+          width: "100%"
+
         }}
         src={meImg}
       />
