@@ -1,20 +1,23 @@
 ---
-title: "Back to the Flow"
+title: "...Part 3"
 date: 2015-12-05
 ---
+Outside they see the evil plan nobody was supposed to see before Dagfrid showed the landing page from the stage.
 
-Godtesugen? Men huset er tomt for godteri? Lag glasur!
+–Oh no! Says Lillian.
 
-![En kopp, melis, melis og kakao](prep.jpg)
+–Dagfrid cannot show THIS on stage, everything is pink instead of green. Benedicte says while thinking "who is behind this cruel joke?"
 
-Er du som meg har noe du nesten alltids litt kakao og melis liggende bakerst i skapet. Ikke bry deg så mye om best før datoen.
 
-<ul>
-	<li>Bland en del mer melis enn kakao med litt lunket smør og en skvett sterk kaffe.</li>
-	<li>Spis med skje rett fra koppen/skålen/bollen.</li>
-</ul>
-Dette har vært redningen for meg mange mange flere ganger enn jeg egentlig ønsker å innrømme.
+![m](2.1-bærekraft-tech-troll-kopi.png)
 
-Husker spesielt godt en kveld som student i Trondheim med Eksperter i team rapport-innspurt. Vi hadde av en eller annen merkelig grunn ikke Internett. Men hvis jeg lå på gulvet i et hjørnet av gangen kunne jeg snylte på naboen i etasjen under. Så der lå jeg med laptopen, en bolle med glasur og satte sammen rapport for harde livet.
 
-![En helt tom kopp](prep.jpg)
+![En helt tom kopp](3.1-bærekraft-tech-troll-kopi.png)
+The landing page was back up just minutes before Dagfrid stepped on stage and displayed it on the big screen.
+
+After the presentation Dagfrid was joined by Steinar Hoen, Stevnedirektør Bislett Games, idrettspresident Tom Tvedt, Bård Vegar Solhjell leder i WWF and Rina Mariann Hansen, Byråd for kultur, idrett og frivillighet for a panel discussion.
+
+The leader of the debate was Linnéa Svensson from Greener Events. In the audience was Tony Isaksen Generalsekretær of Norway Cup, Terje Jørgensen Særforbundenes Fellesorganisasjon and Sissel Karlsen in Sparebankstiftelsen DNB. Sparebankstiftelsen DNB has paid for Grønn Idrett and the inspiration for the drawings is the beautiful book
+[De Tre Bukkene Bruse på Badeland](https://www.cappelendamm.no/_bukkene-bruse-pa-badeland---klaffebok-bjorn-f-rorvik-9788202487676) by [Bjørn F. Rørvik and Gry Moursund.](https://www.dn.no/d2/2014/12/04/2125/Litteratur/eventyrbruset)
+
+

@@ -1,15 +1,16 @@
 // and with no intended identification with actual persons (living or deceased). No animals harmed
+
 module.exports = {
   siteMetadata: {
-    title: "Stories",
+    title: "The Anti Bærekraft Empire Strikes Bislett",
     author: "Ola Vea",
     description:
-      "Stories from real life (mine) and made up stories told by me.",
+      "Another Ola Vea Story built with bits of real life and Gatsby.js.",
     siteUrl: "https://olavea.com/stories",
     feedbackFormLabels: {
       title: "Hei, se her!",
       message:
-        "På denne siden er det ingen storebror (ingen cookies, ingen analyseverktøy, nadanix) som ser deg. Derfor er det fint om du melder fra i skjema under om du syntes artikkelen var nyttig (eller ei).",
+        "På denne siden er det ingen spioner (ingen cookies, ingen analyseverktøy, nadanix) som ser deg. Derfor er det fint om du melder fra i skjema under om du syntes artikkelen var nyttig (eller ei).",
       name: "Navn",
       email: "E-post",
       textarea: "Beskjed",
