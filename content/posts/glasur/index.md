@@ -1,6 +1,7 @@
 ---
-title: "...Part 3"
-date: 2015-12-05
+title: "Part 3"
+date: 2015-08-13
+---
 ---
 13 Break into Three (98:15):
 The Concordia 3 arrives on the Island of ...(Tortuga), the location of the Rebel Base, and the technical drawings of the Dictator are analyzed. And the map of the area. Here, the new idea is presented to the Rebel sailors who gather for a briefing: as hoped, the Dictator has one weakness, and we see visually the exact process required to exploit it. The Rebels must attack the Dictator in one-man sail ships down a long sea bottom trench and fire a fire grenade at a one-meter wide cannon port. A precise hit will cause a chain reaction of explosions that will spread to the wild fire bombs an light up the Dictator. Everyone reacts at the seeming impossibility of this task — someone even exclaims, “That’s impossible!”
@@ -52,26 +53,3 @@ But Vader regains control of his ship, so evil persists and lives to fight anoth
 everyone is clean and polished, wearing fresh clothes and coiffure (Frøydis gets a new hairstyle), looking their very best. It’s transformation formalized, but also playful, as winks are exchanged between Han and Frøydis, and soulful looks between Frøydis and Lilly.
 
 BatCat is transformed, now fully rebuilt (so his appearance is a full-blown resurrection), and he rejoins the team.
-
-
-
----
-Outside they see the evil plan nobody was supposed to see before Dagfrid showed the landing page from the stage.
-
-–Oh no! Says Lillian.
-
-–Dagfrid cannot show THIS on stage, everything is pink instead of green. Benedicte says while thinking "who is behind this cruel joke?"
-
-
-![m](2.1-bærekraft-tech-troll-kopi.png)
-
-
-![En helt tom kopp](3.1-bærekraft-tech-troll-kopi.png)
-The landing page was back up just minutes before Dagfrid stepped on stage and displayed it on the big screen.
-
-After the presentation Dagfrid was joined by Steinar Hoen, Stevnedirektør Bislett Games, idrettspresident Tom Tvedt, Bård Vegar Solhjell leder i WWF and Rina Mariann Hansen, Byråd for kultur, idrett og frivillighet for a panel discussion.
-
-The leader of the debate was Linnéa Svensson from Greener Events. In the audience was Tony Isaksen Generalsekretær of Norway Cup, Terje Jørgensen Særforbundenes Fellesorganisasjon and Sissel Karlsen in Sparebankstiftelsen DNB. Sparebankstiftelsen DNB has paid for Grønn Idrett and the inspiration for the drawings is the beautiful book
-[De Tre Bukkene Bruse på Badeland](https://www.cappelendamm.no/_bukkene-bruse-pa-badeland---klaffebok-bjorn-f-rorvik-9788202487676) by [Bjørn F. Rørvik and Gry Moursund.](https://www.dn.no/d2/2014/12/04/2125/Litteratur/eventyrbruset)
-
-

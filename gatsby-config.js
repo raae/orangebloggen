@@ -2,10 +2,10 @@
 
 module.exports = {
   siteMetadata: {
-    title: "The Anti Bærekraft Empire Strikes Bislett",
+    title: "PIRATES vs TYRANTS",
     author: "Ola Vea",
     description:
-      "Another Ola Vea Story built with bits of real life and Gatsby.js.",
+      "A Story for dev dads built with bits of real life in Lilly Labs and Gatsby.js.",
     siteUrl: "https://olavea.com/stories",
     feedbackFormLabels: {
       title: "Hei, se her!",
