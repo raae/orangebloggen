@@ -2,7 +2,7 @@ import React from "react";
 import Link from "gatsby-link";
 import get from "lodash/get";
 import Helmet from "react-helmet";
-
+import Checkout from "../components/checkout";
 import { rhythm, scale } from "../utils/typography";
 
 class BlogIndex extends React.Component {
@@ -41,6 +41,7 @@ class BlogIndex extends React.Component {
             );
           })}
         </main>
+        <Checkout />
       </div>
     );
   }
