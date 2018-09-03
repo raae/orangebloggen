@@ -2,7 +2,7 @@ import React from "react";
 
 // hardcoded amount (in US cents) to charge users
 // you could set this variable dynamically to charge different amounts
-const amount = 124;
+const amount = 1234;
 const cardStyles = {
   display: "flex",
   flexDirection: "column",
