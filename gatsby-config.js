@@ -2,10 +2,10 @@
 
 module.exports = {
   siteMetadata: {
-    title: "PIRATES vs TYRANTS",
+    title: "Stripeo and Amaza the Pirate Princess",
     author: "Ola Vea",
     description:
-      "A Story about a dev dad building an online book with bits of real life, Gatsby.js and Stripe online payment",
+      "A Story about a dev dad building an online childrens book with bits of real life, Gatsby.js and Stripe online payment",
     siteUrl: "https://olavea.com/stories",
     feedbackFormLabels: {
       title: "Hei, se her!",
