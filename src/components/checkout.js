@@ -2,7 +2,7 @@ import React from "react";
 
 // hardcoded amount (in US cents) to charge users
 // you could set this variable dynamically to charge different amounts
-const amount = 2500;
+const amount = 124;
 const cardStyles = {
   display: "flex",
   flexDirection: "column",
@@ -31,12 +31,12 @@ const buttonStyles = {
 const Checkout = class extends React.Component {
   state = {
     disabled: false,
-    buttonText: "BUY NOW",
+    buttonText: "Test Payment Now",
     paymentMessage: "",
   };
 
   resetButton() {
-    this.setState({ disabled: false, buttonText: "BUY NOW" });
+    this.setState({ disabled: false, buttonText: "Test Payment Now" });
   }
 
   componentDidMount() {
@@ -56,7 +56,7 @@ const Checkout = class extends React.Component {
     this.stripeHandler.open({
       name: "Demo Product",
       amount: amount,
-      description: "A product well worth your time",
+      description: "Help Ola Test Payment",
       token: token => {
         fetch(`https://k53uobt9mf.execute-api.us-east-1.amazonaws.com/dev/checkout`, {
           method: "POST",
@@ -71,12 +71,12 @@ const Checkout = class extends React.Component {
           .then(res => {
             console.log("Transaction processed successfully");
             this.resetButton();
-            this.setState({ paymentMessage: "Payment Successful!" });
+            this.setState({ paymentMessage: "Payment Test Successful!" });
             return res.json();
           })
           .catch(error => {
             console.error("Error:", error);
-            this.setState({ paymentMessage: "Payment Failed" });
+            this.setState({ paymentMessage: "Payment Test Failed" });
           });
       },
     });
