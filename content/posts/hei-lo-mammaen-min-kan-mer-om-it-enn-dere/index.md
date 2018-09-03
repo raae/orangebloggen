@@ -1,7 +1,8 @@
 ---
 title: Part 2
-date: 2016-08-13
+date: 2018-09-03
 ---
+
 
 ![Stripe 1](4-HelloooGatsbyStripe-105-Pay-25.jpg)
 
