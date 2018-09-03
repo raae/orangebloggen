@@ -23,6 +23,7 @@ class BlogIndex extends React.Component {
           <p>{siteDesc}</p>
         </header>
         <main>
+          <Checkout /> 
           {posts.map(({ node }) => {
             const title = get(node, "frontmatter.title") || node.fields.slug;
             return (
@@ -41,7 +42,7 @@ class BlogIndex extends React.Component {
             );
           })}
         </main>
-        <Checkout />
+       
       </div>
     );
   }
