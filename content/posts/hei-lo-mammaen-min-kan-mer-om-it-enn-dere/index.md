@@ -3,7 +3,9 @@ title: Part 2
 date: 2016-08-13
 ---
 
-![Eksempel på reklame 1](1.1-bærekraft-tech-troll-kopi.png)
+![Eksempel på reklame 1](4 HelloooGatsbyStripe__105_Pay__25 .jpg)
+
+![Eksempel på reklame 1](4 HelloooGatsbyStripe__105_Pay__25 .jpg)
 
 
 
