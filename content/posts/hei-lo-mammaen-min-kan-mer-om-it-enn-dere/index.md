@@ -2,6 +2,11 @@
 title: Part 2
 date: 2016-08-13
 ---
+
+![Eksempel på reklame 1](1.1-bærekraft-tech-troll-kopi.png)
+
+
+
 Their ship is caught ... and pulled close to the Dictator!
 Lilly says, “I’ve got a bad feeling about this.”
 Dvorak: “They won’t take me without a fight,” and UnicornParrot gives out a worried bellow,
