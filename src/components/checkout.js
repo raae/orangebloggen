@@ -85,7 +85,7 @@ const Checkout = class extends React.Component {
   render() {
     return (
       <div style={cardStyles}>
-        <h4>Help Ola Test Payment!</h4>
+        <h4>Test Online Payment For Free!</h4>
         <p>
           Use any email, 4242 4242 4242 4242 as the credit card number, any 3
           digit number, and any future date of expiration.
