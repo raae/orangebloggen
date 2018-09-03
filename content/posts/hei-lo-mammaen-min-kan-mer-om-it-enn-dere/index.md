@@ -3,9 +3,9 @@ title: Part 2
 date: 2016-08-13
 ---
 
-![Eksempel på reklame 1](4 HelloooGatsbyStripe__105_Pay__25 .jpg)
+![Eksempel 1](4-HelloooGatsbyStripe-105-Pay-25.jpg)
 
-![Eksempel på reklame 1](4 HelloooGatsbyStripe__105_Pay__25 .jpg)
+![Eksempel 2]()
 
 
 
