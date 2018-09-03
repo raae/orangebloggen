@@ -5,7 +5,7 @@ module.exports = {
     title: "PIRATES vs TYRANTS",
     author: "Ola Vea",
     description:
-      "A Story for dev dads built with bits of real life in Lilly Labs and Gatsby.js.",
+      "A Story about a dev dad building an online book with bits of real life, Gatsby.js and Stripe online payment",
     siteUrl: "https://olavea.com/stories",
     feedbackFormLabels: {
       title: "Hei, se her!",
