@@ -2,7 +2,7 @@ import React from "react";
 
 // hardcoded amount (in US cents) to charge users
 // you could set this variable dynamically to charge different amounts
-const amount = 1234;
+const amount = 0000;
 const cardStyles = {
   display: "flex",
   flexDirection: "column",
@@ -54,9 +54,9 @@ const Checkout = class extends React.Component {
     event.preventDefault();
     this.setState({ disabled: true, buttonText: "WAITING..." });
     this.stripeHandler.open({
-      name: "Demo Product",
+      name: "Stripeo and Amaza the Pirate Princess",
       amount: amount,
-      description: "Help Ola Test Payment",
+      description: "You can read online for free, but test payment is also free",
       token: token => {
         fetch(`https://k53uobt9mf.execute-api.us-east-1.amazonaws.com/dev/checkout`, {
           method: "POST",
