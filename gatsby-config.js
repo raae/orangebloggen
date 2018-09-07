@@ -1,14 +1,16 @@
+// and with no intended identification with actual persons (living or deceased). No animals harmed
+
 module.exports = {
   siteMetadata: {
-    title: "Orangebloggen",
-    author: "Benedicte Raae",
+    title: "Stripeo and Amaza the Pirate Princess",
+    author: "Ola Vea",
     description:
-      "En blogg om livet (mitt) og teknologi (jeg bruker), pluss en rant i ny og ne.",
-    siteUrl: "https://orangebloggen.no",
+      "A dad writes an online book about building Do-It-Yourself online payment with Stripe, Gatsby.js and Amaza Serveless Functions",
+    siteUrl: "https://olavea.com/stories",
     feedbackFormLabels: {
       title: "Hei, se her!",
       message:
-        "På denne siden er det ingen storebror (ingen cookies, ingen analyseverktøy, nadanix) som ser deg. Derfor er det fint om du melder fra i skjema under om du syntes artikkelen var nyttig (eller ei).",
+        "På denne siden er det ingen spioner (ingen cookies, ingen analyseverktøy, nadanix) som ser deg. Derfor er det fint om du melder fra i skjema under om du syntes artikkelen var nyttig (eller ei).",
       name: "Navn",
       email: "E-post",
       textarea: "Beskjed",
@@ -18,15 +20,15 @@ module.exports = {
     some: [
       {
         label: "Twitter",
-        url: "https://twitter.com/raae"
+        url: "https://twitter.com/olaholstvea"
       },
       {
         label: "Instagram",
-        url: "https://instagram.com/benedicteraae"
+        url: "https://instagram.com/batcatdad"
       },
       {
         label: "LinkedIn",
-        url: "https://www.linkedin.com/in/benedicteraae/"
+        url: "https://www.linkedin.com/in/olaholstvea/"
       }
     ]
   },
@@ -74,6 +76,7 @@ module.exports = {
     `gatsby-plugin-feed`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-stripe-checkout`,
     {
       resolve: "gatsby-plugin-typography",
       options: {
